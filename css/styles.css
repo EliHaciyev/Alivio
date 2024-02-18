@@ -1,0 +1,111 @@
+body {
+  font-family: 'Lato',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242
+}
+
+.none {
+  display: none !important;
+}
+
+.visually-hidden {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+  display: block;
+  margin-left: -10000px;
+  background: transparent;
+  font-size: 0;
+}
+
+
+/* Grid  */
+
+.container {
+  width: 1400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Section Header Start */
+
+.header {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.header-row {
+ display: flex;
+ align-items: center;
+ 
+}
+.header-logo a {
+  font-family: Georgia;
+  font-weight: 800;
+  color: #01996D;
+}
+
+.header-nav {
+  margin-left: 172px;
+  font-weight: 500;
+  color: #292929;
+}
+
+.header-nav ul {
+  display: flex;
+}
+.header-nav li + li {
+  margin-left: 70px;
+}
+.header-nav a {
+  transition: .3s ease;
+}
+.header-nav a:hover {
+  color:#01996D;
+}
+.header-login {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.header-login a {
+  color: #000;
+  transition: .3s ease;
+}
+.header-login>*+* {
+  margin-left: 35px;
+}
+.header-login a:hover {
+  color: #01996D;
+}
+.btn, a.btn {
+  display: inline-block;
+  /* height: 51px;
+  line-height: 51px; */
+  min-height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #01996D;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 4px;
+  transition: opacity .2s ease;
+}
+
+.btn:hover, a.btn:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+
+/* Section Header End */
+ 
